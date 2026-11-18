@@ -106,7 +106,7 @@ Human episodic memory fades rapidly—where keys were placed, what action items 
 | :---: | :---: |
 | <img src="assets/logo/sage_wizard.png" width="84" alt="SAGE Wizard"/><br/><sub>Capture · Memory · Recall · Control</sub> | <img src="assets/hardware/xiao_device.png" width="170" alt="Seeed XIAO ESP32-S3 Sense"/><br/><sub>OV2640 Camera + Integrated PDM Mic + 8 MB PSRAM</sub> |
 
-> **Full Screenshot Gallery:** See [`assets/screenshots/`](assets/screenshots/README.md) · **Live Walkthrough Video:** Ready for drop-in at [`assets/demo/`](assets/demo/README.md).
+>  **Live Walkthrough Video:** Ready for drop-in at [`assets/demo/`](assets/demo/README.md).
 
 ---
 

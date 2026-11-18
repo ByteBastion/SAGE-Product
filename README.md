@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/logo/app_logo.png" alt="SAGE Logo" width="110" />
 
-  <h1>SAGE — A Multimodal AI Memory System</h1>
+  <h1>SAGE — Smriti Adaptive Guardian Engine</h1>
   <p><strong>Bringing contextual memory to real-world experiences through multimodal AI.</strong></p>
 
   <p>

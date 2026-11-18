@@ -1,6 +1,6 @@
 # Hardware Setup Guide (Seeed XIAO ESP32-S3 Sense)
 
-> **Note:** Wearable hardware is **optional** for evaluating the SAGE Android application's AI Recall, Attachment RAG, Memory Vault, and Google Drive features. A GitHub release does **not** expose a physical ESP32 remotely over the internet—the wearable connects directly over short-range local Wi-Fi (`SAGE-XIAO`).
+> **Note:** Wearable hardware is **compulsory** for evaluating the SAGE Android application's AI Recall, Attachment RAG, Memory Vault, and Google Drive features. A GitHub release does **not** expose a physical ESP32 remotely over the internet—the wearable connects directly over short-range local Wi-Fi (`SAGE-XIAO`).
 
 ---
 

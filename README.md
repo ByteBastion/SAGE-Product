@@ -91,10 +91,17 @@ Human episodic memory fades rapidly—where keys were placed, what action items 
 | :---: | :---: |
 | <img src="assets/logo/sage_wizard.png" width="84" alt="SAGE Wizard"/><br/><sub>Capture · Memory · Recall · Control</sub> | <img src="assets/hardware/xiao_device.png" width="170" alt="Seeed XIAO ESP32-S3 Sense"/><br/><sub>OV2640 Camera + Integrated PDM Mic + 8 MB PSRAM</sub> |
 
-### Screenshots & Demo Status
-- **Real Application Screenshots:** Ready for drop-in at [`assets/screenshots/`](assets/screenshots/README.md) (awaiting final device capture from maintainer).
-- **Live Walkthrough Video:** Ready for drop-in at [`assets/demo/`](assets/demo/README.md).
-- *Integrity Note:* No synthetic UI mockups or fabricated screenshots are published in this repository.
+### Real Application Screenshots
+
+| Launch & Identity | Wearable Capture (`SAGE-XIAO`) | Scene Narrative & Evidence |
+| :---: | :---: | :---: |
+| <img src="assets/screenshots/01-splash-launch.png" width="210" alt="SAGE Launch Screen"/><br/><sub>**Launch Screen** — Brand initialization & local vault load</sub> | <img src="assets/screenshots/03-capture-dashboard.png" width="210" alt="Live XIAO Capture Viewfinder"/><br/><sub>**Capture Agent** — Live MJPEG viewfinder with FPS & latency telemetry</sub> | <img src="assets/screenshots/02-memory-details.png" width="210" alt="Memory Details and Original Evidence"/><br/><sub>**Memory Details** — Scene narrative + speaker-timestamped evidence</sub> |
+
+| Grounded Recall & Video Link | Control Agent & Drive Queue | Saved Facts & Memory Vault |
+| :---: | :---: | :---: |
+| <img src="assets/screenshots/04-recall-chat.png" width="210" alt="Recall Chat with Evidence Playback"/><br/><sub>**Recall Agent** — Natural-language query with direct video clip jump</sub> | <img src="assets/screenshots/05-control-agent.png" width="210" alt="Control Agent Sync Status"/><br/><sub>**Control Agent** — `Uploaded` / `Pending` status & Gemini analysis queue</sub> | <img src="assets/screenshots/06-memory-vault.png" width="210" alt="Personal Memory Vault Facts"/><br/><sub>**Memory Vault** — Verified & inferred user facts with CRUD controls</sub> |
+
+> Full caption gallery: [`assets/screenshots/`](assets/screenshots/README.md) · **Live Walkthrough Video:** Ready for drop-in at [`assets/demo/`](assets/demo/README.md).
 
 ---
 

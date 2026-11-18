@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 490" width="1120" height="490" role="img" aria-label="SAGE Four-Agent Architecture">
+  <defs>
+    <style>
+      .title { font: 700 21px 'Segoe UI', Arial, sans-serif; fill: #0F172A; }
+      .sub { font: 400 13px 'Segoe UI', Arial, sans-serif; fill: #475569; }
+      .ag-label { font: 700 11px 'Segoe UI', Arial, sans-serif; letter-spacing: 1px; fill: #FFFFFF; }
+      .ag-title { font: 700 17px 'Segoe UI', Arial, sans-serif; fill: #0F172A; }
+      .h { font: 700 12px 'Segoe UI', Arial, sans-serif; fill: #1E293B; }
+      .t { font: 400 11.5px 'Segoe UI', Arial, sans-serif; fill: #475569; }
+      .status { font: 700 10.5px 'Segoe UI', Arial, sans-serif; fill: #166534; }
+    </style>
+  </defs>
+
+  <rect width="1120" height="490" fill="#FFFFFF"/>
+
+  <text x="32" y="38" class="title">SAGE — Four-Agent Conceptual Architecture Mapped to Code</text>
+  <text x="32" y="58" class="sub">How SAGE's four research agents map to concrete implemented Flutter services, native bridges, and hardware modules</text>
+  <line x1="32" y1="72" x2="1088" y2="72" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- AGENT 1: CAPTURE -->
+  <rect x="32" y="92" width="246" height="316" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <rect x="32" y="92" width="246" height="34" rx="12" fill="#0060AA"/>
+  <rect x="32" y="112" width="246" height="14" fill="#0060AA"/>
+  <text x="48" y="114" class="ag-label">AGENT 01 · CAPTURE</text>
+  <text x="48" y="150" class="ag-title">Capture Agent</text>
+  <text x="48" y="170" class="t">Collects live video &amp; audio from</text>
+  <text x="48" y="185" class="t">the wearable with zero drift.</text>
+  <line x1="48" y1="200" x2="262" y2="200" stroke="#E2E8F0"/>
+  <text x="48" y="220" class="h">Implemented Components</text>
+  <text x="48" y="238" class="t">• XIAO ESP32-S3 Firmware v3.0.0</text>
+  <text x="48" y="255" class="t">• XiaoConnectionService</text>
+  <text x="48" y="272" class="t">• MainActivity.kt Wi-Fi binding</text>
+  <text x="48" y="289" class="t">• MjpegRecorder (AVI + idx1)</text>
+  <text x="48" y="306" class="t">• Capture Tab (DashboardPage)</text>
+  <rect x="48" y="362" width="214" height="28" rx="14" fill="#DCFCE7"/>
+  <text x="155" y="380" text-anchor="middle" class="status">IMPLEMENTED · HARDWARE + APP</text>
+
+  <!-- AGENT 2: MEMORY -->
+  <rect x="298" y="92" width="246" height="316" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <rect x="298" y="92" width="246" height="34" rx="12" fill="#1E3A8A"/>
+  <rect x="298" y="112" width="246" height="14" fill="#1E3A8A"/>
+  <text x="314" y="114" class="ag-label">AGENT 02 · MEMORY</text>
+  <text x="314" y="150" class="ag-title">Memory Agent</text>
+  <text x="314" y="170" class="t">Transforms raw clips &amp; chats</text>
+  <text x="314" y="185" class="t">into structured dual memories.</text>
+  <line x1="314" y1="200" x2="528" y2="200" stroke="#E2E8F0"/>
+  <text x="314" y="220" class="h">Implemented Components</text>
+  <text x="314" y="238" class="t">• ProcessingService (async queue)</text>
+  <text x="314" y="255" class="t">• GeminiService (7-pillar prompt)</text>
+  <text x="314" y="272" class="t">• MemoryStoreService (Vaults)</text>
+  <text x="314" y="289" class="t">• MemoriesList &amp; Details Pages</text>
+  <text x="314" y="306" class="t">• Tombstone cloud vault merge</text>
+  <rect x="314" y="362" width="214" height="28" rx="14" fill="#DCFCE7"/>
+  <text x="421" y="380" text-anchor="middle" class="status">IMPLEMENTED · DUAL JSON + VAULT</text>
+
+  <!-- AGENT 3: RECALL -->
+  <rect x="564" y="92" width="246" height="316" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <rect x="564" y="92" width="246" height="34" rx="12" fill="#C2410C"/>
+  <rect x="564" y="112" width="246" height="14" fill="#C2410C"/>
+  <text x="580" y="114" class="ag-label">AGENT 03 · RECALL</text>
+  <text x="580" y="150" class="ag-title">Recall Agent</text>
+  <text x="580" y="170" class="t">Answers voice/text queries and</text>
+  <text x="580" y="185" class="t">opens video proof on demand.</text>
+  <line x1="580" y1="200" x2="794" y2="200" stroke="#E2E8F0"/>
+  <text x="580" y="220" class="h">Implemented Components</text>
+  <text x="580" y="238" class="t">• Recall Tab (ChatPage + STT)</text>
+  <text x="580" y="255" class="t">• Conversation Intelligence</text>
+  <text x="580" y="272" class="t">• Hybrid token RAG + 12k cap</text>
+  <text x="580" y="289" class="t">• AttachmentService (PDF/DOCX)</text>
+  <text x="580" y="306" class="t">• Inline video evidence links</text>
+  <rect x="580" y="362" width="214" height="28" rx="14" fill="#FEF3C7"/>
+  <text x="687" y="380" text-anchor="middle" style="font: 700 10.5px 'Segoe UI', Arial, sans-serif; fill: #92400E;">HYBRID RAG LIVE · VECTORS PLANNED</text>
+
+  <!-- AGENT 4: CONTROL -->
+  <rect x="830" y="92" width="258" height="316" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <rect x="830" y="92" width="258" height="34" rx="12" fill="#15803D"/>
+  <rect x="830" y="112" width="258" height="14" fill="#15803D"/>
+  <text x="846" y="114" class="ag-label">AGENT 04 · CONTROL</text>
+  <text x="846" y="150" class="ag-title">Control Agent</text>
+  <text x="846" y="170" class="t">Governs identity, Drive storage,</text>
+  <text x="846" y="185" class="t">queues, and device API keys.</text>
+  <line x1="846" y1="200" x2="1072" y2="200" stroke="#E2E8F0"/>
+  <text x="846" y="220" class="h">Implemented Components</text>
+  <text x="846" y="238" class="t">• You / Control Tab (ProfilePage)</text>
+  <text x="846" y="255" class="t">• ApiKeyService + Android Keystore</text>
+  <text x="846" y="272" class="t">• GoogleDriveService (drive.file)</text>
+  <text x="846" y="289" class="t">• UserIdentityService (per-user)</text>
+  <text x="846" y="306" class="t">• MemoryVaultScreen (user CRUD)</text>
+  <rect x="846" y="362" width="226" height="28" rx="14" fill="#DCFCE7"/>
+  <text x="959" y="380" text-anchor="middle" class="status">IMPLEMENTED · KEYSTORE + OAUTH</text>
+
+  <!-- Security Boundary Footer -->
+  <rect x="32" y="426" width="1056" height="44" rx="8" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text x="50" y="452" class="t"><tspan class="h">Security Boundary:</tspan> No Google OAuth client secrets or Gemini API keys are embedded in the public APK; users authenticate via Android GoogleSignIn and encrypt their own API key in Android Keystore (AES-256-GCM).</text>
+</svg>
+

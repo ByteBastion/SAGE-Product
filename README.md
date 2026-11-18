@@ -31,7 +31,7 @@
 
 **SAGE (Smriti Adaptive Guardian Engine)** is an end-to-end wearable multimodal AI memory system. It bridges a compact **Seeed XIAO ESP32-S3 Sense** wearable camera/microphone unit, a **Flutter + Kotlin Android** companion client, **Google Gemini multimodal understanding**, and **user-owned Google Drive archival** so users can capture real-world moments and retrieve exact video evidence using natural-language voice or text questions.
 
-> **Repository Separation:** This repository (`SAGE-Product`) hosts public product documentation, architecture specifications, and verified Android APK releases. Academic methodology and pilot research live in **[ByteBastion/SAGE-AI](https://github.com/ByteBastion/SAGE-AI)**, while proprietary source code is protected in private **`ByteBastion/SAGE-Core`**.
+> **Repository Separation:** This repository (`SAGE-Product`) hosts public product documentation, architecture specifications, and verified Android APK releases. Academic methodology and pilot research live in **[ByteBastion/SAGE-AI](https://github.com/ByteBastion/SAGE-AI)**.
 
 ---
 

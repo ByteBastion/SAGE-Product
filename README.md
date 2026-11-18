@@ -35,6 +35,21 @@
 
 ---
 
+## Application Screenshots
+
+| # | Screen / Agent | Screenshot | What It Demonstrates |
+| :---: | :--- | :---: | :--- |
+| **1** | **Launch Screen**<br/>*(Brand & Init)* | <img src="assets/screenshots/01-splash-launch.png" width="170" alt="SAGE Launch Screen"/> | Initial SAGE (*Smriti Adaptive Guardian Engine*) startup experience and local vault initialization. |
+| **2** | **Capture Agent**<br/>*(Wearable Live Feed)* | <img src="assets/screenshots/03-capture-dashboard.png" width="170" alt="Live XIAO Capture Viewfinder"/> | Real-time `SAGE-XIAO` ESP32-S3 MJPEG viewfinder (`LIVE`, `5fps · 346ms` telemetry) and one-tap recording trigger. |
+| **3** | **Memory Details**<br/>*(Scene & Evidence)* | <img src="assets/screenshots/02-memory-details.png" width="170" alt="Memory Details and Original Evidence"/> | Gemini-generated scene summary paired with timestamped speaker transcripts (`Original Evidence`, `00:01–00:04`). |
+| **4** | **Recall Agent**<br/>*(Conversational Search)* | <img src="assets/screenshots/04-recall-chat.png" width="170" alt="Recall Chat with Evidence Playback"/> | Natural-language query grounded in stored clips, offering `Text is sufficient` or `Show me the video` jump-to-clip chips. |
+| **5** | **Control Agent**<br/>*(Cloud & Queue)* | <img src="assets/screenshots/05-control-agent.png" width="170" alt="Control Agent Sync Status"/> | Google Drive backup counters (`Uploaded` / `Pending`), account management, and live Gemini analysis progress. |
+| **6** | **Memory Vault**<br/>*(Saved Facts & CRUD)* | <img src="assets/screenshots/06-memory-vault.png" width="170" alt="Personal Memory Vault Facts"/> | Filterable `Verified` & `Inferred` facts (`All`, `Verified`, `Inferred`, `Active`, `Archived`) with inline edit and delete controls. |
+
+> High-resolution gallery & detailed notes: [`assets/screenshots/`](assets/screenshots/README.md)
+
+---
+
 ## Problem & Solution
 
 ### The Problem
@@ -91,17 +106,7 @@ Human episodic memory fades rapidly—where keys were placed, what action items 
 | :---: | :---: |
 | <img src="assets/logo/sage_wizard.png" width="84" alt="SAGE Wizard"/><br/><sub>Capture · Memory · Recall · Control</sub> | <img src="assets/hardware/xiao_device.png" width="170" alt="Seeed XIAO ESP32-S3 Sense"/><br/><sub>OV2640 Camera + Integrated PDM Mic + 8 MB PSRAM</sub> |
 
-### Real Application Screenshots
-
-| Launch & Identity | Wearable Capture (`SAGE-XIAO`) | Scene Narrative & Evidence |
-| :---: | :---: | :---: |
-| <img src="assets/screenshots/01-splash-launch.png" width="210" alt="SAGE Launch Screen"/><br/><sub>**Launch Screen** — Brand initialization & local vault load</sub> | <img src="assets/screenshots/03-capture-dashboard.png" width="210" alt="Live XIAO Capture Viewfinder"/><br/><sub>**Capture Agent** — Live MJPEG viewfinder with FPS & latency telemetry</sub> | <img src="assets/screenshots/02-memory-details.png" width="210" alt="Memory Details and Original Evidence"/><br/><sub>**Memory Details** — Scene narrative + speaker-timestamped evidence</sub> |
-
-| Grounded Recall & Video Link | Control Agent & Drive Queue | Saved Facts & Memory Vault |
-| :---: | :---: | :---: |
-| <img src="assets/screenshots/04-recall-chat.png" width="210" alt="Recall Chat with Evidence Playback"/><br/><sub>**Recall Agent** — Natural-language query with direct video clip jump</sub> | <img src="assets/screenshots/05-control-agent.png" width="210" alt="Control Agent Sync Status"/><br/><sub>**Control Agent** — `Uploaded` / `Pending` status & Gemini analysis queue</sub> | <img src="assets/screenshots/06-memory-vault.png" width="210" alt="Personal Memory Vault Facts"/><br/><sub>**Memory Vault** — Verified & inferred user facts with CRUD controls</sub> |
-
-> Full caption gallery: [`assets/screenshots/`](assets/screenshots/README.md) · **Live Walkthrough Video:** Ready for drop-in at [`assets/demo/`](assets/demo/README.md).
+> **Full Screenshot Gallery:** See [`assets/screenshots/`](assets/screenshots/README.md) · **Live Walkthrough Video:** Ready for drop-in at [`assets/demo/`](assets/demo/README.md).
 
 ---
 

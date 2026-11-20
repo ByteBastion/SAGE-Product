@@ -5,11 +5,11 @@
   <p><strong>Bringing contextual memory to real-world experiences through multimodal AI.</strong></p>
 
   <p>
-    <a href="https://github.com/ByteBastion/SAGE-Product/releases/download/v1.0.0/SAGE-v1.0.0-android.apk">
-      <img src="https://img.shields.io/badge/Download-SAGE%20v1.0.0%20APK-1E9E5A?style=for-the-badge&logo=android&logoColor=white" alt="Download SAGE Android APK" />
+    <a href="https://github.com/ByteBastion/SAGE-Product/releases/download/v1.0.1/SAGE-v1.0.1-android.apk">
+      <img src="https://img.shields.io/badge/Download-SAGE%20v1.0.1%20APK-1E9E5A?style=for-the-badge&logo=android&logoColor=white" alt="Download SAGE Android APK" />
     </a>
-    <a href="https://github.com/ByteBastion/SAGE-Product/releases/tag/v1.0.0">
-      <img src="https://img.shields.io/badge/Release-v1.0.0-0060AA?style=for-the-badge&logo=github" alt="Latest Release v1.0.0" />
+    <a href="https://github.com/ByteBastion/SAGE-Product/releases/tag/v1.0.1">
+      <img src="https://img.shields.io/badge/Release-v1.0.1-0060AA?style=for-the-badge&logo=github" alt="Latest Release v1.0.1" />
     </a>
     <a href="https://github.com/ByteBastion/SAGE-AI">
       <img src="https://img.shields.io/badge/Research-SAGE--AI-8E44AD?style=for-the-badge&logo=readthedocs&logoColor=white" alt="SAGE-AI Research Repository" />
@@ -126,7 +126,7 @@ Human episodic memory fades rapidly—where keys were placed, what action items 
 
 > **Important for Evaluators:** You **do not** need the ESP32-S3 hardware to test the Android application. Recall Chat, Persistent Memory Vault, Document/Image Analysis, and Google Drive synchronization work independently on any Android device.
 
-1. Download **`SAGE-v1.0.0-android.apk`** from the [v1.0.0 Release Page](https://github.com/ByteBastion/SAGE-Product/releases/tag/v1.0.0).
+1. Download **`SAGE-v1.0.1-android.apk`** from the [v1.0.1 Release Page](https://github.com/ByteBastion/SAGE-Product/releases/tag/v1.0.1).
 2. Enable **Install from unknown sources** on Android and install the APK.
 3. Open SAGE → navigate to **Control Agent (`You` tab)** → **AI & Intelligence → Gemini API Key**.
 4. Paste your personal [Google AI Studio Gemini API Key](https://aistudio.google.com/apikey) and tap **Save & Verify Key** (encrypted locally in Android Keystore; persists across app restarts).
